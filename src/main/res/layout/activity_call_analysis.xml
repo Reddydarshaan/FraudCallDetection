@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/analysisTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📊 Call Analysis"
+        android:textSize="26sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/riskLevelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Risk Level: MEDIUM"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/transcriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech-to-Text Summary: Call content here..."
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/deepfakeResultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deepfake Detection: Real"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/reportScamButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Report Scam"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/button_text"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/blockNumberButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Block Number"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/button_text"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

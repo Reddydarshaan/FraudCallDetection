@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="black">#121212</color> <!-- Dark Background -->
+    <color name="white">#FFFFFF</color> <!-- Text Color -->
+    <color name="red">#D32F2F</color> <!-- Scam Alert Buttons -->
+
+    <!-- Accent Colors -->
+    <color name="green">#4CAF50</color> <!-- Safe Indicator -->
+    <color name="yellow">#FFC107</color> <!-- Medium Risk -->
+    <color name="orange">#FF9800</color> <!-- High Risk -->
+
+    <!-- Button Styles -->
+    <color name="button_background">#FF1744</color> <!-- Vibrant Red -->
+    <color name="button_text">#FFFFFF</color> <!-- White Text -->
+
+    <!-- Additional Colors -->
+    <color name="card_background">#1E1E1E</color> <!-- Darker Card BG -->
+    <color name="text_secondary">#BDBDBD</color> <!-- Secondary Text -->
+
+    <color name="backgroundColor">#121212</color> <!-- Dark Mode Background -->
+
+    <!-- Primary Text Colors -->
+    <color name="primaryTextColor">#FFFFFF</color> <!-- Main Text (White) -->
+    <color name="secondaryTextColor">#BDBDBD</color> <!-- Grayish Secondary Text -->
+
+    <!-- Button Colors -->
+    <color name="buttonColor">#4CAF50</color> <!-- Green Start Button -->
+    <color name="stopButtonColor">#D32F2F</color> <!-- Red Stop Button -->
+    <color name="analysisButtonColor">#1976D2</color> <!-- Blue Analysis Button -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- Button Text (White) -->
+
+    <!-- Additional Colors -->
+    <color name="iconTint">#FFC107</color> <!-- Yellow Icon Tint -->
+    <color name="dividerColor">#757575</color> <!-- Light Divider Lines -->
+
+    
+</resources>
